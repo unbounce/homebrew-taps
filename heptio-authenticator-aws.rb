@@ -9,6 +9,7 @@ class HeptioAuthenticatorAws < Formula
   depends_on :arch => :x86_64
 
   def install
+    system "mv heptio-authenticator-aws_#{version}_darwin_amd64 heptio-authenticator-aws"
     bin.install 'heptio-authenticator-aws'
   end
 
