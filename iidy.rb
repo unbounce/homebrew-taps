@@ -2,9 +2,9 @@ require 'formula'
 
 class Iidy < Formula
   homepage 'https://github.com/unbounce/iidy'
-  url 'https://github.com/unbounce/iidy/releases/download/v1.7.0/iidy-macos-amd64.zip'
-  version '1.7.0'
-  sha256 '05c7e1272da0244eed95805d2739b576ff710e75bef548b997d08e7b07f53f8d'
+  url 'https://github.com/unbounce/iidy/releases/download/v1.8.0/iidy-macos-amd64.zip'
+  version '1.8.0'
+  sha256 '69b27cba2d576dda22f556acbe26dec5b8f630f4e96b1909b6ea86bfe6e6736b'
 
   depends_on :arch => :x86_64
 
